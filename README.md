@@ -2,6 +2,8 @@
 
 WebComponents to render a Blade Layout (famous due to the Azure Portal) using lightweight modern JavaScript, DOM and HTML.
 
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@razorblades/blades-webcomponent)
+
 ## Walk through & features
 
 **Javscript & CSS**
