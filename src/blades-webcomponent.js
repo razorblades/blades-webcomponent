@@ -8,7 +8,7 @@ class BladeHostElement extends HTMLElement {
 
         const shadowRoot = this.attachShadow({ mode: 'open' });
         shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="blade-webcomponent.css">
+        <link rel="stylesheet" href="blades-webcomponent.css">
         <div id="blade-host-element" class="blade-host-element">
             <slot id="blade-stack-slot"></slot>
         </div>
@@ -33,7 +33,7 @@ class BladeStackElement extends HTMLElement {
 
         const shadowRoot = this.attachShadow({ mode: 'open' });
         shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="blade-webcomponent.css">
+        <link rel="stylesheet" href="blades-webcomponent.css">
         <div id="blade-stack-element" class="blade-stack-element">
             <slot id="blade-slot"></slot>
         </div>
@@ -80,7 +80,7 @@ class BladeBladeElement extends HTMLElement {
 
         const shadowRoot = this.attachShadow({ mode: 'open' });
         shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="blade-webcomponent.css">
+        <link rel="stylesheet" href="blades-webcomponent.css">
         <div class="blade-blade-element">
             <header>
                 <div id="icon"></div>

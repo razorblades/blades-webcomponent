@@ -7,10 +7,10 @@ WebComponents to render a Blade Layout (famous due to the Azure Portal) using li
 **Javscript & CSS**
 
 ````html
-<script type="module" src="blade-webcomponent.js"></script>
+<script type="module" src="blades-webcomponent.js"></script>
 ````
 
-RazorBlades Web Component are distributed using a JavaScript module. Feel free to [download](src/blade-webcomponent.js), minimize, bundle and host it on your own. CSS is currently loaded in the WebComponent querying for a `blade.css`.
+RazorBlades Web Component are distributed using a JavaScript module. Feel free to [download](src/blades-webcomponent.js), minimize, bundle and host it on your own. CSS is currently loaded in the WebComponent querying for a `blade.css`.
 
 **Hosted in a parent element**
 
