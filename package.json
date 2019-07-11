@@ -1,15 +1,23 @@
 {
-    "name": "@razorblades/blades-webcomponent",
-    "version": "0.1.0",
-    "description": "WebComponents to render a Blade Layout (famous due to the Azure Portal) using lightweight modern JavaScript, DOM and HTML.",
-    "license": "MIT",
-    "main": "src/blades-webcomponent.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/razorblades/blades-webcomponent.git"
-    },
-    "keywords": [
-        "blade",
-        "layout"
-    ]
+  "name": "@razorblades/blades-webcomponent",
+  "version": "0.1.0",
+  "description": "WebComponents to render a Blade Layout (famous due to the Azure Portal) using lightweight modern JavaScript, DOM and HTML.",
+  "license": "MIT",
+  "main": "src/blade-webcomponent.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razorblades/blades-webcomponent.git"
+  },
+  "keywords": [
+    "blade",
+    "layout"
+  ],
+  "bugs": {
+    "url": "https://github.com/razorblades/blades-webcomponent/issues"
+  },
+  "homepage": "https://github.com/razorblades/blades-webcomponent",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "razorblades"
 }
