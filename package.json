@@ -1,6 +1,6 @@
 {
   "name": "@razorblades/blades-webcomponent",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "WebComponents to render a Blade Layout (famous due to the Azure Portal) using lightweight modern JavaScript, DOM and HTML.",
   "license": "MIT",
   "main": "src/blades-webcomponent.js",

@@ -1,3 +1,7 @@
+# v0.3.0 Internalize CSS
+
+- Move CSS into the JavaScript to prevent statically linked css import.
+
 # v0.2.0 Improving NPM package
 
 - Rename blade-webcomponent to blades-webcomponent to match package/repo name

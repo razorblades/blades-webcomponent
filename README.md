@@ -13,7 +13,7 @@ WebComponents to render a Blade Layout (famous due to the Azure Portal) using li
 <script type="module" src="blades-webcomponent.js"></script>
 ````
 
-RazorBlades Web Component are distributed using a JavaScript module. Feel free to [download](src/blades-webcomponent.js), minimize, bundle and host it on your own. CSS is currently loaded in the WebComponent querying for a `blade.css`.
+RazorBlades Web Component are distributed using a JavaScript module. Feel free to [download](src/blades-webcomponent.js), minimize, bundle and host it on your own. CSS is currently embedded in the WebComponent JavaScript.
 
 **Hosted in a parent element**
 
@@ -74,7 +74,7 @@ Buttons in the body can be added to a `slot` within the blade's button row. They
 1. RazorBlades are tested and developed using Firefox.
    - Firefox (Evergreen at moment of release)
    - Chrome (Evergreen at moment of release)
-   -  IE11 support may be achieved using polyfills. We do not test or support this.
+   - IE11 support may be achieved using polyfills. We do not test or support this.
 1. Technology
    - Uses only HTML/DOM/JS standards
      - [Custom Elements](https://caniuse.com/#feat=custom-elementsv1)
