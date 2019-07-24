@@ -1,0 +1,30 @@
+trigger:
+  batch: false
+  tags:
+   include:
+     - v*
+
+stages:
+- stage: stage_publish
+  displayName: Publish
+  variables:
+    - name: version
+      value: $(Build.SourceBranchName)
+  jobs:
+    - job: job_publish
+      displayName: Build
+      pool:
+        vmImage: 'ubuntu-latest'
+      steps:
+        - task: FileTransform@1
+          displayName: Encode Tag into project.json
+          inputs:
+            fileType: json
+            folderPath: '$(System.DefaultWorkingDirectory)'
+            targetFiles: 'package.json'
+        - script: |
+            cat package.json
+        - task: Npm@1
+          inputs:
+            command: publish
+            customEndpoint: 'razorblades-npm'
