@@ -1,3 +1,7 @@
+# v0.3.1, .2, .3 Add Azure Pipeline
+
+- Multiple tags only existing to test Azure Pipeline Support
+
 # v0.3.0 Internalize CSS
 
 - Move CSS into the JavaScript to prevent statically linked css import.
