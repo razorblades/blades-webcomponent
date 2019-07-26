@@ -28,3 +28,4 @@ stages:
           inputs:
             command: publish
             customEndpoint: 'razorblades-npm'
+            publishEndpoint: 'https://registry.npmjs.org'
