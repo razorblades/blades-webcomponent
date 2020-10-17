@@ -4,6 +4,7 @@ WebComponents to render a Blade Layout (famous due to the Azure Portal) using li
 
 [![npm](https://img.shields.io/npm/v/@razorblades/blades-webcomponent.svg)](https://www.npmjs.com/package/@razorblades/blades-webcomponent)
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@razorblades/blades-webcomponent)
+[![Build Status](https://dev.azure.com/razorblades/blades-webcomponent/_apis/build/status/razorblades.blades-webcomponent?branchName=master)](https://dev.azure.com/razorblades/blades-webcomponent/_build/latest?definitionId=1&branchName=master)
 
 ## Walk through & features
 
