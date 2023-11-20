@@ -205,7 +205,7 @@ class BladeBladeElement extends HTMLElement {
                 <div id="icon"></div>
                 <h2 id="title"></h2>
                 <small id="sub-title"></small>
-                <button id="close">X</button>
+                <button id="close">✖</button>
             </header>
             <div class="blade-command-bar-element">
                 <slot name="blade-buttons"></slot>
